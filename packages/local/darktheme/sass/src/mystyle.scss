@@ -1,0 +1,130 @@
+$text-color: #333;
+
+.x-body{
+    background-color: #121212 !important;
+    color: #DDDDDD;
+}
+
+.profile-dataview .x-dataview-item {
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #3e3737 !important;
+}
+
+.testimonial-panel {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-style: solid;
+    border-width: 1px; /* Apply border on all sides */
+    border-color: #3e3737 !important;
+    padding: 15px; /* Ensure content spacing */
+    margin: 10px 0; /* Ensure there is space between panels */
+}
+
+.testimonial-panel:hover {
+    // transform: translateY(-10px); /* Move the panel up slightly */
+    box-shadow: 0px 4px 15px  #555555; /* Add a shadow on hover */
+}
+.x-toolbar-footer {
+    background-color:#121212 ;
+}
+.x-column-header-over, .x-column-header-trigger{
+    background-color: #555555;
+    color: #DDDDDD;
+}
+
+/* Dark theme scrollbar for Ext JS */
+/* Webkit scrollbar styling for dark theme */
+.x-scroller::-webkit-scrollbar {
+    width: 8px !important;   /* Thin vertical scrollbar */
+    height: 8px !important;  /* Thin horizontal scrollbar */
+}
+
+.x-scroller::-webkit-scrollbar-track {
+    background: #1a1a1a !important; /* Dark track */
+    border-radius: 5px;
+}
+
+.x-scroller::-webkit-scrollbar-thumb {
+    background: #444444 !important; /* Dark thumb */
+    border-radius: 5px;
+}
+
+.x-scroller::-webkit-scrollbar-thumb:hover {
+    background: #666666 !important; /* Lighter thumb on hover */
+}
+
+.x-scroller::-webkit-scrollbar-corner {
+    background: #1a1a1a !important;
+}
+
+.x-menu-body-default {
+    background: #1f1f1f;
+    padding: 8px 0;
+    height: 42vh;
+}
+
+.card {
+    background-color: #121212 !important;
+    color:#DDDDDD !important;
+}
+
+
+.card {
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #3e3737 !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.card-content {
+    font-size: 14px;
+    line-height: 1.6;
+}
+    .dataview-container {
+    display: flex;
+    padding: 10px;
+}
+
+.card {
+    // background-color: #f9f9f9;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    // transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ddd;
+    text-align: center;
+}
+
+.card-content {
+    font-size: 14px;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.x-tab-bar-default {
+    background-color: #121212;
+}
+
+.x-tab.x-tab-active.x-tab-default {
+    border-radius: 0px;
+}

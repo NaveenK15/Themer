@@ -1,0 +1,35 @@
+@include extjs-panel-ui ($ui-header-background-color: $ui-mainPanel-panel-header-background-color,$ui-header-background-gradient: $ui-mainPanel-panel-header-background-gradient,$ui-header-border-style: $ui-mainPanel-panel-header-border-style,$ui-header-glyph-color: $ui-mainPanel-panel-header-glyph-color,$ui-header-icon-width: $ui-mainPanel-panel-header-icon-width,$ui-header-icon-height: $ui-mainPanel-panel-header-icon-height,$ui-header-icon-spacing: $ui-mainPanel-panel-header-icon-spacing,$ui-header-inner-border-color: $ui-mainPanel-panel-header-inner-border-color,$ui-header-inner-border-width: $ui-mainPanel-panel-header-inner-border-width,$ui-header-padding: $ui-mainPanel-panel-header-padding,$ui-header-line-height: $ui-mainPanel-panel-header-line-height,$ui-header-color: $ui-mainPanel-panel-header-color,$ui-header-font-family: $ui-mainPanel-panel-header-font-family,$ui-header-font-size: $ui-mainPanel-panel-header-font-size,$ui-header-font-weight: $ui-mainPanel-panel-header-font-weight,$ui-header-text-padding: $ui-mainPanel-panel-header-text-padding,$ui-body-background-color: $ui-mainPanel-panel-body-background-color,$ui-body-border-style: $ui-mainPanel-panel-body-border-style,$ui-body-color: $ui-mainPanel-panel-body-color,$ui-body-font-family: $ui-mainPanel-panel-body-font-family,$ui-body-font-size: $ui-mainPanel-panel-body-font-size,$ui-body-font-weight: $ui-mainPanel-panel-body-font-weight,$ui-tool-glyph-color: $ui-mainPanel-tool-glyph-color,$ui-tool-spacing: $ui-mainPanel-panel-tool-spacing,$ui: 'mainPanel');
+
+.panelStyle {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px lightgray;
+    
+}
+
+.x-grid-view, .x-tree-view {
+    scrollbar-width: none;
+}
+
+.cardPanel { 
+    height: 140px !important;
+    box-shadow: 1px 1px 4px 1px lightgray;
+    border-radius: 5px;
+    margin: 10px;
+
+    .x-panel-body-default{
+        border-radius: 5px;
+        height: 150px !important;
+    }
+
+    strong {
+        color: $text-color;
+    }
+    
+    p {
+        color: $text-color;
+    }
+
+    .x-panel-default-outer-border-trbl {
+        height: 140px !important;
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html manifest="">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes"
+    />
+
+    <title>Themer</title>
+
+    <script type="text/javascript">
+      var Ext = Ext || {}; // Ext namespace won't be defined yet...
+
+      Ext.beforeLoad = function (tags) {
+        Ext.manifest = localStorage.getItem("tag") || "material"; // this name must match a build profile name
+      };
+    </script>
+
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script
+      id="microloader"
+      data-app="e7cf3789-d388-4212-b1cf-43689a3ac7f6"
+      type="text/javascript"
+      src="bootstrap.js"
+    ></script>
+  </head>
+  <body></body>
+</html>

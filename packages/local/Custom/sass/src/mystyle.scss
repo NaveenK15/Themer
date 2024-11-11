@@ -1,0 +1,76 @@
+/* Dark theme scrollbar for Ext JS */
+/* Webkit scrollbar styling for dark theme */
+.x-scroller::-webkit-scrollbar {
+    width: 8px !important;   /* Thin vertical scrollbar */
+    height: 8px !important;  /* Thin horizontal scrollbar */
+}
+
+.x-scroller::-webkit-scrollbar-track {
+    background: #e9e9e9 !important; /* Dark track */
+    border-radius: 5px;
+}
+
+.x-scroller::-webkit-scrollbar-thumb {
+    background: #919090 !important; /* Dark thumb */
+    border-radius: 5px;
+}
+
+.x-scroller::-webkit-scrollbar-thumb:hover {
+    background: #919090 !important; /* Lighter thumb on hover */
+}
+
+.x-scroller::-webkit-scrollbar-corner {
+    background: #e9e9e9 !important;
+}
+
+.x-menu-body-default {
+    background: #e9e9e9;
+    padding: 8px 0;
+    height: 42vh;
+}
+
+
+.custom-grid{
+    .x-grid-cell-inner{
+        padding: 6px;
+    }
+}
+
+.dataview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: $text-color;
+    text-align: center;
+}
+
+.card-content {
+    font-size: 14px;
+    color: $text-color;
+    line-height: 1.6;
+}
+
